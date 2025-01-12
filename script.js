@@ -32,10 +32,7 @@ async function searchImages(){
         imageLink.href = result.links.innerHTML
         imageLink.target = '_blank'
         imageLink.textContent = result.alt_description
-
-        console.log("hello");
         
-
         imageWrapper.appendChild(image);
         imageWrapper.appendChild(imageLink);
         searchResults.appendChild(imageWrapper);
